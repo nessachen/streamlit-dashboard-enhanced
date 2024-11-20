@@ -95,7 +95,6 @@ feedback = st.text_area("Please give me feedback on the dashboard:")
 
 if st.button('Submit') and feedback:
     st.write("Thank you!")
-    st.write(feedback)
 
 st.write("")
 
