@@ -100,7 +100,7 @@ st.write("")
 
 # feedback widget for rating 
 with rating:
-    st.write("Please rate your experience with the dashboard!")
+    st.write("Rate your experience with the dashboard!")
     feedback = st.feedback(options="faces")
 
 st.write("")
